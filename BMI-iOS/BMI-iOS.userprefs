@@ -2,9 +2,9 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="BMI-iOS/Main.storyboard">
     <Files>
       <File FileName="BMI-iOS/AppDelegate.cs" Line="1" Column="1" />
-      <File FileName="BMI-iOS/Main.storyboard" />
-      <File FileName="BMI-iOS/ViewController.cs" Line="18" Column="4" />
+      <File FileName="BMI-iOS/ViewController.cs" Line="44" Column="2" />
       <File FileName="BMI-iOS/Main.cs" Line="16" Column="1" />
+      <File FileName="BMI-iOS/Main.storyboard" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
