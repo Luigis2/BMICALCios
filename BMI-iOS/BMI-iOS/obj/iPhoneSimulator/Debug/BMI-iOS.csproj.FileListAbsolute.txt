@@ -1,0 +1,9 @@
+/Users/luigis2/Projects/BMI-iOS/BMI-iOS/bin/iPhoneSimulator/Debug/BMI-iOS.exe
+/Users/luigis2/Projects/BMI-iOS/BMI-iOS/bin/iPhoneSimulator/Debug/BMI-iOS.pdb
+/Users/luigis2/Projects/BMI-iOS/BMI-iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/luigis2/Projects/BMI-iOS/BMI-iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_PartialAppManifest.items
+/Users/luigis2/Projects/BMI-iOS/BMI-iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_BundleResourceWithLogicalName.items
+/Users/luigis2/Projects/BMI-iOS/BMI-iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/optimized/
+/Users/luigis2/Projects/BMI-iOS/BMI-iOS/obj/iPhoneSimulator/Debug/BMI-iOS.csproj.CoreCompileInputs.cache
+/Users/luigis2/Projects/BMI-iOS/BMI-iOS/obj/iPhoneSimulator/Debug/BMI-iOS.exe
+/Users/luigis2/Projects/BMI-iOS/BMI-iOS/obj/iPhoneSimulator/Debug/BMI-iOS.pdb
