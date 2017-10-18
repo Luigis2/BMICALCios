@@ -58,6 +58,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3958" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="94" y="443" width="75" height="30"/>
+                                <state key="normal" title="Details">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue id="4025" destination="2488" kind="show"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <variation key="default">
                             <mask key="subviews">
@@ -66,6 +75,7 @@
                                 <exclude reference="581"/>
                                 <exclude reference="782"/>
                                 <exclude reference="979"/>
+                                <exclude reference="3958"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -75,6 +85,7 @@
                                 <include reference="581"/>
                                 <include reference="782"/>
                                 <include reference="979"/>
+                                <include reference="3958"/>
                             </mask>
                         </variation>
                     </view>
@@ -84,10 +95,64 @@
                         <outlet property="calculateButton" destination="194" id="name-outlet-194"/>
                         <outlet property="bmiLabel" destination="581" id="name-outlet-581"/>
                     </connections>
+                    <navigationItem title="BMI CALCULATOR" id="1482" key="navigationItem"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="0.0"/>
+            <point key="canvasLocation" x="17" y="0.0"/>
+        </scene>
+        <scene sceneID="1196">
+            <objects>
+                <navigationController id="1197" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1199">
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue id="1483" destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1200" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-386" y="0.0"/>
+        </scene>
+        <scene sceneID="2487">
+            <objects>
+                <viewController id="2488" sceneMemberID="viewController" customClass="Deetzz">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2485"/>
+                        <viewControllerLayoutGuide type="bottom" id="2486"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2489">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2492" translatesAutoresizingMaskIntoConstraints="NO" text="DEETzZz">
+                                <rect key="frame" x="126" y="282" width="84" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="2492"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="2492"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="bmiDeetzzzz" destination="2492" id="name-outlet-2492"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2490" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="380" y="-6"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
