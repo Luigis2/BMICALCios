@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{333EFA5D-0159-4D4E-8518-EF74E39A425A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="BMI-iOS/Main.storyboard">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BMI-iOS/ViewController.cs">
     <Files>
       <File FileName="BMI-iOS/Main.storyboard" />
-      <File FileName="BMI-iOS/DetailViewController.cs" Line="1" Column="1" />
+      <File FileName="BMI-iOS/Deetzz.cs" Line="9" Column="27" />
+      <File FileName="BMI-iOS/ViewController.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
