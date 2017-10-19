@@ -25,7 +25,7 @@ namespace BMIiOS
 			float height = float.Parse(heightTextField.Text);
 			float weight = float.Parse(weightTextField.Text);
 
-			float bmi = (weight / (height * height));
+			bmi = (weight / (height * height));
 
 			bmiLabel.Text = bmi.ToString ();
 		}
@@ -44,7 +44,7 @@ namespace BMIiOS
 
         public override void PrepareForSegue(UIStoryboardSegue segue, Foundation.NSObject sender)
         {
-            base.PrepareForSegue(segue, sender);
+            base.PrepareForSegue (segue, sender);
 
             var Deetzz = segue.DestinationViewController as Deetzz;
 

@@ -16,13 +16,13 @@ namespace BMIiOS
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UILabel bmiDeetzzzz { get; set; }
+        UIKit.UILabel lookLabel { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
-            if (bmiDeetzzzz != null) {
-                bmiDeetzzzz.Dispose ();
-                bmiDeetzzzz = null;
+            if (lookLabel != null) {
+                lookLabel.Dispose ();
+                lookLabel = null;
             }
         }
     }
