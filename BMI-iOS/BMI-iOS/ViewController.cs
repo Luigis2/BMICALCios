@@ -6,6 +6,7 @@ namespace BMIiOS
 {
     public partial class ViewController : UIViewController
     {
+        float bmi = 21.5f;
         protected ViewController(IntPtr handle) : base(handle)
         {
             // Note: this .ctor should not contain any initialization logic.
@@ -39,6 +40,15 @@ namespace BMIiOS
             base.TouchesBegan(touches, evt);
 
             this.View.EndEditing(true);
+        }
+
+        public override void PrepareForSegue(UIStoryboardSegue segue, Foundation.NSObject sender)
+        {
+            base.PrepareForSegue(segue, sender);
+
+            var Deetzz = segue.DestinationViewController as Deetzz;
+
+            Deetzz.bmi = this.bmi;
         }
     }
 }
