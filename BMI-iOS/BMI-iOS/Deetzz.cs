@@ -22,15 +22,15 @@ namespace BMIiOS
             string result = String.Empty;
 
             if (bmi <= 16)
-                result = "very lowzzzzz";
+                result = "Its Very Low Doe";
             else if (bmi < 18.5)
-                result = "lowzzzzz";
+                result = "Its Kinda Low Doe";
             else if (bmi < 26)
-                result = "normalzzzzz";
+                result = "You Normal You OG";
             else if (bmi < 30)
-                result = "highzzzz";
+                result = "Kinda High Doe";
             else
-                result = "too highzzz";
+                result = "Higher than the Burj Khalifa";
             
             lookLabel.Text = result;
         }
